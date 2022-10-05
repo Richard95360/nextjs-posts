@@ -24,3 +24,30 @@ a {
     background: black;
   }
 }
+.red {
+  color: red;
+}
+
+nav {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem;
+}
+
+.footer {
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 1rem;
+}
+
+.form >*{
+  padding: 0.7rem;
+  margin: 1rem;
+}
+
+nav .active {
+  font-weight: bold;
+}
